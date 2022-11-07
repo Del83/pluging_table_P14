@@ -18,27 +18,27 @@
 - [Examples](#examples)
 - [Props](#props)
 
-### 1. Project
+## Project
 
 ---
 
 A JavaScript table component for React Native allowing to simply display, sort, filter, paginate data.
 
-### 2. Project technologies
+## Project technologies
 
 ---
 
 - [React](https://fr.reactjs.org/) (18.2.0)
 - [Babel-cli](https://babeljs.io/) (6.26.0)
 
-### 3. Project prerequisites
+## Project prerequisites
 
 ---
 
 - [Node.js](https://nodejs.org/) (12.18.0)
 - [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) (1.22.19)
 
-### 4. Project installation
+## Project installation
 
 ---
 
@@ -54,7 +54,7 @@ Import it into the project :
 import Modal from "@del83/plugin_table_p14/dist";
 ```
 
-### 5. Project starting
+## Project starting
 
 ---
 
@@ -64,7 +64,7 @@ Start using the front-end
 yarn start
 ```
 
-### 6. Examples
+## Examples
 
 ---
 
@@ -195,7 +195,7 @@ export default function App() {
 }
 ```
 
-### 7. Props
+## Props
 
 ---
 
