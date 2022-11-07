@@ -10,11 +10,11 @@ var _react = _interopRequireWildcard(require("react"));
 /** TOOLS */
 
 /**
-* Modal component
+* React component
 * @param {bool} display modal display
 * @param {func} setDisplay modal state change
 * @param {string} messageModal modal message
-* @component
+* @returns {JSX} Modal component
 */
 function Modal(_ref) {
   var displayModal = _ref.displayModal,

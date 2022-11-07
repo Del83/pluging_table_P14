@@ -11,7 +11,7 @@ import Paging from "./tablePaging";
 import "../styles/table.css";
 
 /**
- * React component : table component to simply display, sort, filter, paginate data.
+ * React component 
  * @param {Array} dataSorted data sorted
  * @param {func} setDataSorted data sorted management
  * @param {Array} dataFiltered data filtered
@@ -29,7 +29,7 @@ import "../styles/table.css";
  * @param {string} className input class name
  * @param {string} classContent input content class name
  * @param {string} classChevron input chevron class name
- * @component
+ * @returns {JSX} Table component to simply display, sort, filter, paginate data.
  */
 export default function Table({
   dataSorted,

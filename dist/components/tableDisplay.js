@@ -13,7 +13,7 @@ var _react = _interopRequireWildcard(require("react"));
 /** COMPONENTS */
 
 /**
- * React component : data display management
+ * React component 
  * @param {func} setCurrentPage page number change management
  * @param {node} itemsPerPage items per page
  * @param {func} setSelect input state change
@@ -21,7 +21,7 @@ var _react = _interopRequireWildcard(require("react"));
  * @param {string} className input class name
  * @param {string} classContent input content class name
  * @param {string} classChevron input chevron class name
- * @component
+ * @returns {JSX} Data display management
  */
 function Display(_ref) {
   var setCurrentPage = _ref.setCurrentPage,

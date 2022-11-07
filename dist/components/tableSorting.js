@@ -9,11 +9,11 @@ var _react = _interopRequireWildcard(require("react"));
 /** TOOLS */
 
 /**
- * Sort table
+ * React component
  * @param {string} categories table column names
  * @param {func} sortIncreasing function that handles ascending sort
  * @param {func} sortDescending function that handles descending sort
- * @component
+ * @returns {JSX} Sort table
  */
 function Sorting(_ref) {
   var categories = _ref.categories,

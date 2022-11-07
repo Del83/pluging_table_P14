@@ -3,11 +3,11 @@ import propTypes from 'prop-types';
 import "../styles/modal.css";
 
 /**
-* Modal component
+* React component
 * @param {bool} display modal display
 * @param {func} setDisplay modal state change
 * @param {string} messageModal modal message
-* @component
+* @returns {JSX} Modal component
 */
 export default function Modal ( { displayModal, setDisplayModal, messageModal}) {
 

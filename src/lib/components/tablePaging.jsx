@@ -2,13 +2,13 @@
 import propTypes from "prop-types";
 
 /**
- * React component : table paging
+ * React component  
  * @param {number} currentPage the current page
  * @param {array} pageNumbers the page numbers
  * @param {func} itemsTotal the total of the items
  * @param {func} goPreviousPage function to go to the previous page
  * @param {func} goNextPage function to go to the next page
- * @component
+ * @returns {JSX} Table paging
  */
 export default function Paging({
   currentPage,

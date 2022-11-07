@@ -4,7 +4,7 @@ import propTypes from "prop-types";
 import InputDropdown from "./inputDropdown";
 
 /**
- * React component : data display management
+ * React component 
  * @param {func} setCurrentPage page number change management
  * @param {node} itemsPerPage items per page
  * @param {func} setSelect input state change
@@ -12,7 +12,7 @@ import InputDropdown from "./inputDropdown";
  * @param {string} className input class name
  * @param {string} classContent input content class name
  * @param {string} classChevron input chevron class name
- * @component
+ * @returns {JSX} Data display management
  */
 export default function Display({
   setCurrentPage,    

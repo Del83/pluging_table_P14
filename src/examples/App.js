@@ -15,8 +15,8 @@ import "../lib/styles/modal.css";
 import "../lib/styles/layout.css";
 
 /**
- * React component : Table with sorting, filtering and pagination
- * @component
+ * React component example
+ * @returns {JSX} Table component to simply display, sort, filter, paginate data.
  */
 export default function App() {
 
@@ -38,16 +38,7 @@ export default function App() {
     if (!searchBar) {
       setCurrentItems(dataSorted.slice(indexOfFirstItem, indexOfLastItem));
     } else if (searchBar) {
-      if (currentPage !== 1) {
-        setCurrentPage(1);
-        setItemsPerPage((dataFiltered.length === 0) ? 10 : (dataFiltered.length))
-        setCurrentItems(dataFiltered);
-        //setCurrentItems(dataFiltered.slice(indexOfFirstItem, indexOfLastItem));
-      } else {
-        //setItemsPerPage((dataFiltered.length === 0) ? 10 : (dataFiltered.length))
-        //setCurrentItems(dataFiltered);
-        setCurrentItems(dataFiltered.slice(indexOfFirstItem, indexOfLastItem));
-      }
+      setCurrentItems(dataFiltered.slice(indexOfFirstItem, indexOfLastItem));
     }
     if (dataFiltered.length === 0) {
       setDisplayModal(true);

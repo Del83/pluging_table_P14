@@ -9,10 +9,10 @@ var _react = _interopRequireWildcard(require("react"));
 /** TOOLS */
 
 /**
- * React component : Search in table
+ * React component
  * @param {func} handleSearchInput function that handles the search bar entry
  * @param {string} searchInput search input
- * @component
+ * @returns {JSX} Search in table
  */
 function Search(_ref) {
   var handleSearchInput = _ref.handleSearchInput,

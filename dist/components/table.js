@@ -10,10 +10,8 @@ var _tableSearch = _interopRequireDefault(require("./tableSearch"));
 var _tableSorting = _interopRequireDefault(require("./tableSorting"));
 var _tablePaging = _interopRequireDefault(require("./tablePaging"));
 require("../styles/table.css");
-
 var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard").default;
 var _react = _interopRequireWildcard(require("react"));
-
 /** TOOLS */
 
 /** COMPONENTS */
@@ -21,7 +19,7 @@ var _react = _interopRequireWildcard(require("react"));
 /** STYLE */
 
 /**
- * React component : table component to simply display, sort, filter, paginate data.
+ * React component 
  * @param {Array} dataSorted data sorted
  * @param {func} setDataSorted data sorted management
  * @param {Array} dataFiltered data filtered
@@ -39,7 +37,7 @@ var _react = _interopRequireWildcard(require("react"));
  * @param {string} className input class name
  * @param {string} classContent input content class name
  * @param {string} classChevron input chevron class name
- * @component
+ * @returns {JSX} Table component to simply display, sort, filter, paginate data.
  */
 function Table(_ref) {
   var dataSorted = _ref.dataSorted,

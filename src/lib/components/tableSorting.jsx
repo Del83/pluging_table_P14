@@ -2,11 +2,11 @@
 import propTypes from "prop-types";
 
 /**
- * Sort table
+ * React component
  * @param {string} categories table column names
  * @param {func} sortIncreasing function that handles ascending sort
  * @param {func} sortDescending function that handles descending sort
- * @component
+ * @returns {JSX} Sort table
  */
 export default function Sorting({
   categories,

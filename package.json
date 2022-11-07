@@ -2,7 +2,7 @@
   "name": "@del83/plugin_table_p14",
   "description": "simple table component",
   "author": "del83",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [

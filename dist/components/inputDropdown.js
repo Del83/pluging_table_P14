@@ -20,7 +20,7 @@ var _react = _interopRequireWildcard(require("react"));
 /** ASSETS */
 
 /**
- * React component : The input dropdown of the table
+ * React component 
  * @param {string} name field name
  * @param {string} label field label
  * @param {Array} list data to display
@@ -30,7 +30,7 @@ var _react = _interopRequireWildcard(require("react"));
  * @param {string} className input class name
  * @param {string} classContent input content class name
  * @param {string} classChevron input chevron class name
- * @component
+ * @returns {JSX} The input dropdown of the table
  */
 function InputDropdown(_ref) {
   var name = _ref.name,

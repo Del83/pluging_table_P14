@@ -4,20 +4,18 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = InputText;
-
 var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard").default;
 var _react = _interopRequireWildcard(require("react"));
-
 /** TOOLS */
 
 /**
-* React component : The input text of the table
+* React component
 * @param {string} name field name
 * @param {string} label field label
 * @param {func} setInput input state change
 * @param {string} input input value
 * @param {string} className input class name
-* @component
+* @returns {JSX} The input text of the table
 */
 function InputText(_ref) {
   var name = _ref.name,

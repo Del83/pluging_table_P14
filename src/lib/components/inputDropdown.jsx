@@ -10,7 +10,7 @@ import chevronDown from "../assets/chevronDown.png";
 import chevronUp from "../assets/chevronUp.png";
 
 /**
- * React component : The input dropdown of the table
+ * React component 
  * @param {string} name field name
  * @param {string} label field label
  * @param {Array} list data to display
@@ -20,7 +20,7 @@ import chevronUp from "../assets/chevronUp.png";
  * @param {string} className input class name
  * @param {string} classContent input content class name
  * @param {string} classChevron input chevron class name
- * @component
+ * @returns {JSX} The input dropdown of the table
  */
 export default function InputDropdown({
   name,

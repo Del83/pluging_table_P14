@@ -2,13 +2,13 @@
 import propTypes from 'prop-types';
 
 /**
-* React component : The input text of the table
+* React component
 * @param {string} name field name
 * @param {string} label field label
 * @param {func} setInput input state change
 * @param {string} input input value
 * @param {string} className input class name
-* @component
+* @returns {JSX} The input text of the table
 */
 export default function InputText ({ name, label, setInput, input, className }) {
 

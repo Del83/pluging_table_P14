@@ -2,10 +2,10 @@
 import propTypes from "prop-types";
 
 /**
- * React component : Search in table
+ * React component
  * @param {func} handleSearchInput function that handles the search bar entry
  * @param {string} searchInput search input
- * @component
+ * @returns {JSX} Search in table
  */
 export default function Search({ handleSearchInput, searchInput }) {
   return (
