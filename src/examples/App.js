@@ -44,9 +44,9 @@ export default function App() {
         setCurrentItems(dataFiltered);
         //setCurrentItems(dataFiltered.slice(indexOfFirstItem, indexOfLastItem));
       } else {
-        setItemsPerPage((dataFiltered.length === 0) ? 10 : (dataFiltered.length))
-        setCurrentItems(dataFiltered);
-        //setCurrentItems(dataFiltered.slice(indexOfFirstItem, indexOfLastItem));
+        //setItemsPerPage((dataFiltered.length === 0) ? 10 : (dataFiltered.length))
+        //setCurrentItems(dataFiltered);
+        setCurrentItems(dataFiltered.slice(indexOfFirstItem, indexOfLastItem));
       }
     }
     if (dataFiltered.length === 0) {

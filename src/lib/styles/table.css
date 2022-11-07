@@ -38,16 +38,16 @@ thead {
 }
 
 .chevronUp {
-  transform: translateX(0.5em);
+  transform: translateX(7.5px);
 }
 
 .chevronDown {
-  transform: translateX(0.375em) rotate(180deg);
+  transform: translateX(6px) rotate(180deg);
 }
 
 .chevronUp,
 .chevronDown {
-  font-size: 0.5em;
+  font-size: 0.8em;
   cursor: pointer;
 }
 
@@ -58,7 +58,7 @@ thead {
   }
 
   .chevronUp {
-    transform: translateX(0.125em);
+    transform: translateX(6px);
   }
 
   .chevronDown {
@@ -81,12 +81,13 @@ tbody tr:nth-child(even) {
 }
 
 tr {
+  height: 45px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 0.625em;
   margin-bottom: 0.625em;
-  padding: 0.625em;
+  padding: 0.2em;
   letter-spacing: 0.125em;
 }
 
@@ -192,12 +193,17 @@ th {
   list-style: none;
 }
 
+.table-content-show > li {
+  cursor: pointer;
+}
+
 .chevron-show {
   width: 1em;
   height: 0.625em;  
   position: absolute;
   right: 1.6em;
   bottom: 0.6em;
+  cursor: pointer;
 }
 
 .entries {

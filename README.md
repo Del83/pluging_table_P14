@@ -1,4 +1,4 @@
-# TABLE WINDOW PLUGIN
+# TABLE REACT PLUGIN
 
 `React component`
 
@@ -6,7 +6,17 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![alt text](https://github.com/Del83/plugin_table_p14/blob/master/plugin-table-image.png "demo1")
+![](./demo_plugin_table_display_p14_AdobeExpress.gif)![](./demo_plugin_table_filtered_p14_AdobeExpress.gif)![](./demo_plugin_table_paging_p14_AdobeExpress.gif)![](./demo_plugin_table_sorting_p14_AdobeExpress.gif)
+
+## Table of Contents
+
+- [Project](#Project)
+- [Project technologies](#project-technologies)
+- [Project prerequisites](#project-prerequisites)
+- [Project installation](#project-installation)
+- [Project starting](#project-starting)
+- [Examples](#examples)
+- [Props](#props)
 
 ### 1. Project
 
