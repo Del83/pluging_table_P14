@@ -6,7 +6,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-![](./demo_plugin_table_display_p14_AdobeExpress.gif)![](./demo_plugin_table_filtered_p14_AdobeExpress.gif)![](./demo_plugin_table_paging_p14_AdobeExpress.gif)![](./demo_plugin_table_sorting_p14_AdobeExpress.gif)
+![](./demo_plugin_table_p14_AdobeExpress.gif)
 
 ## Table of Contents
 
